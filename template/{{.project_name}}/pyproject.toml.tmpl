@@ -51,6 +51,7 @@ select = ["ALL"]
 ignore = [
     "BLE001",   # "Do not catch blind exception: `Exception`"
     "COM812",   # "Checks for the absence of trailing commas" - redundant when used in tandem with the formatter
+    "CPY001",   # "Checks for the absence of copyright notices within Python files" - copyright notices are not required for internal projects
     "D100",     # "Missing docstring in public module"
     "D104",     # "Missing docstring in public package"
     "D105",     # "Missing docstring in magic method"
