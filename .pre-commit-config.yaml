@@ -1,13 +1,13 @@
 repos:
 -   repo: https://gitlab.com/vojko.pribudic.foss/pre-commit-update
-    rev: v0.9.0
+    rev: v0.10.0
     hooks:
     -   id: pre-commit-update
         stages: [pre-commit]
         args:
         -   --verbose
 -   repo: https://github.com/commitizen-tools/commitizen
-    rev: v4.16.4
+    rev: v4.19.3
     hooks:
     -   id: commitizen
         stages: [commit-msg]
